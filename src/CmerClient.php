@@ -27,7 +27,7 @@ class CmerClient
     public function __construct(string $apikey, int $timeout=30)
     {
         $this->headers['apikey'] = $apikey;
-        $this->headers['X-CmerApi-Host'] = "KnowledgeBase.p.cmer.com";
+        $this->headers['X-CmerApi-Host'] = "knowledge-base.p.cmer.com";
         $this->timeout=$timeout;
     }
 
