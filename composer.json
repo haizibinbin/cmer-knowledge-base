@@ -1,0 +1,17 @@
+{
+    "name": "hbb/cmer-knowledge-base",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hbb\\CmerKnowledgeBase\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hbb",
+            "email": "haizibinbin@gmail.com"
+        }
+    ]
+}
