@@ -22,7 +22,7 @@ class CmerClient
     /**
      * @var int 请求超时时间默认30秒
      */
-    protected $timeout=30;
+    public int $timeout=30;
 
     public function __construct(string $apikey, int $timeout=30)
     {
